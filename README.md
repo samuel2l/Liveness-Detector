@@ -16,7 +16,7 @@ This project is a complete pipeline for detecting liveness in images using YOLO.
 ## Data Preparation
 
 ### 1. Generate Real and Fake Data
-
+- Note that you need to create the following directories manually as the code will not create the directory ie dataset/split dataset/fake dataset/real all need to be created
 - Run the `face_detector.py` script to collect and label data:
   - **Set the `classId`:**
     - Set `classId = 0` for **fake** data.
